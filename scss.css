@@ -229,21 +229,13 @@ li {
 @keyframes fade-in-move-down {
   0% {
     opacity: 0;
-    transform: translateX(2rem);
+    transform: translate(2rem, 0);
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate(0, 0);
   }
 }
-.main {
-  animation: fade-in-move-down 1.2s;
-  top: 0;
-  left: 0;
-  display: block;
-  visibility: visible;
-}
-
 .slick-active .name__avtor {
   animation: fade-in-move-down 1.2s;
 }
