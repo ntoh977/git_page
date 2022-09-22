@@ -69,10 +69,6 @@ li {
   flex-direction: column;
   justify-content: center;
 }
-.info_block .left .catigory {
-  color: #000000;
-  font-size: 40px;
-}
 .info_block .left .text {
   color: #000000;
   font-family: 'Gilroy';
@@ -142,13 +138,7 @@ li {
   font-size: 80px;
 }
 
-.slider_top {
-  position: relative;
-  display: flex;
-  padding: 20px;
-  background: rgba(179, 179, 179, 0.18);
-}
-.slider_top .header__title {
+.header__title {
   position: relative;
   color: #AAAAAA;
   font-family: 'Gilroy';
@@ -157,7 +147,7 @@ li {
   font-size: 30px;
   line-height: 36px;
 }
-.slider_top .header__title::before {
+.header__title::before {
   content: "";
   position: absolute;
   top: 18px;
@@ -165,6 +155,48 @@ li {
   height: 2px;
   left: -56px;
   background-color: #FF5C00;
+}
+
+.catigory {
+  color: #000000;
+  font-size: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+.buttons .btn_left,
+.buttons .btn_right {
+  width: 257px;
+  height: 63px;
+  line-height: 63px;
+  border-radius: 16px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.buttons .btn_left {
+  background-color: #0061FF;
+  color: #FFFFFF;
+}
+.buttons .btn_right {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.slider_top {
+  position: relative;
+  display: flex;
+  padding: 20px;
+  background: rgba(179, 179, 179, 0.18);
 }
 .slider_top .slider_top .men__center {
   position: absolute;
@@ -224,6 +256,19 @@ li {
 
 .slick-next {
   left: 19px;
+}
+
+.slider_center {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+.slider_center .text {
+  width: 100%;
+  white-space: unset;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /*# sourceMappingURL=scss.css.map */

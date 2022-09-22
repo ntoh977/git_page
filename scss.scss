@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    
+
 }
 
 .container {
@@ -12,7 +12,7 @@
 body {
     font-family: 'Gilroy';
     font-style: normal;
-  
+
 }
 
 ul,
@@ -80,10 +80,6 @@ li {
         justify-content: center;
 
 
-        .catigory {
-            color: #000000;
-            font-size: 40px;
-        }
 
         .text {
             color: #000000;
@@ -167,31 +163,71 @@ li {
 
 }
 
+.header__title {
+    position: relative;
+    color: #AAAAAA;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 18px;
+        width: 53px;
+        height: 2px;
+        left: -56px;
+        background-color: #FF5C00;
+    }
+}
+
+.catigory {
+    color: #000000;
+    font-size: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+
+    .btn_left,
+    .btn_right {
+        width: 257px;
+        height: 63px;
+        line-height: 63px;
+        border-radius: 16px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .btn_left {
+        background-color: #0061FF;
+        color: #FFFFFF;
+    }
+
+    .btn_right {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+}
+
 .slider_top {
     position: relative;
     display: flex;
     padding: 20px;
     background: rgba(179, 179, 179, 0.18);
 
-    .header__title {
-        position: relative;
-        color: #AAAAAA;
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 36px;
 
-        &::before {
-            content: "";
-            position: absolute;
-            top: 18px;
-            width: 53px;
-            height: 2px;
-            left: -56px;
-            background-color: #FF5C00;
-        }
-    }
 
     .slider_top .men__center {
         position: absolute;
@@ -267,15 +303,28 @@ li {
 //     0% {
 //       opacity: 0;
 //       transform: translate(2rem, 0);
-    
+
 //     } 
 //     100% {
 //       opacity: 1;
 //       transform: translate(0, 0);
- 
+
 //     }
 //   }
-  
+
 
 //  .slick-active .name__avtor { animation: fade-in-move-down 1.2s; };
 //  .slick-active .men__center { animation: fade-in-move-down 1.2s; };
+.slider_center {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   padding: 20px;
+
+    .text {
+        width: 100%;
+        white-space: unset;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
