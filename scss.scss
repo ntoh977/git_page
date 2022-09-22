@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    
+}
+
 .container {
     max-width: 1928px;
     margin: 0 auto;
@@ -7,6 +12,7 @@
 body {
     font-family: 'Gilroy';
     font-style: normal;
+  
 }
 
 ul,
@@ -261,10 +267,12 @@ li {
     0% {
       opacity: 0;
       transform: translateX(2rem);
+    
     } 
     100% {
       opacity: 1;
       transform: translateX(0);
+ 
     }
   }
   
