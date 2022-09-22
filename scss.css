@@ -176,7 +176,7 @@ li {
   padding-left: 416px;
 }
 .slider_top .single-item {
-  width: 61%;
+  max-width: 700px;
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(196, 190, 187, 0.8);
   box-shadow: 0px 14px 47px rgba(0, 0, 0, 0.09);
@@ -186,7 +186,7 @@ li {
 .slider_top .single-item .men__center {
   position: absolute;
   height: 100%;
-  padding-left: 190px;
+  padding-left: 127px;
 }
 .slider_top .single-item .text__slide {
   color: #000000;
@@ -224,24 +224,6 @@ li {
 
 .slick-next {
   left: 19px;
-}
-
-@keyframes fade-in-move-down {
-  0% {
-    opacity: 0;
-    transform: translate(2rem, 0);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
-}
-.slick-active .name__avtor {
-  animation: fade-in-move-down 1.2s;
-}
-
-.slick-active .men__center {
-  animation: fade-in-move-down 1.2s;
 }
 
 /*# sourceMappingURL=scss.css.map */
