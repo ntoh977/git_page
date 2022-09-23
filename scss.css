@@ -260,12 +260,10 @@ li {
 
 .slider_center {
   display: flex;
+  gap: 177px;
   align-items: center;
   padding: 10px;
   margin: 50px 0;
-}
-.slider_center .left {
-  transform: scale(0.5);
 }
 .slider_center .catigory {
   margin: 10px 0;
