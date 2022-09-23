@@ -260,9 +260,10 @@ li {
 
 .slider_center {
   display: flex;
-  gap: 20px;
+  gap: 117px;
   align-items: center;
-  padding: 84px;
+  padding: 10px;
+  margin: 150px 0;
 }
 .slider_center .text {
   width: 100%;
@@ -276,7 +277,7 @@ li {
   align-items: center;
   margin: 21px 0;
 }
-.slider_center .topimg:nth-child(2) {
+.slider_center .top img:nth-child(2) {
   margin-left: 16px;
 }
 .slider_center .bottom {

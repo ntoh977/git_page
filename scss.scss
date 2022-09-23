@@ -317,10 +317,11 @@ li {
 //  .slick-active .men__center { animation: fade-in-move-down 1.2s; };
 .slider_center {
     display: flex;
-    gap: 20px;
+    gap: 117px;
     align-items: center;
-    padding: 84px;
-
+    padding: 10px;
+    margin: 150px 0;
+    
     .text {
         width: 100%;
         white-space: unset;
@@ -333,7 +334,7 @@ li {
         justify-content: space-around;
        align-items: center; 
          margin: 21px 0; 
-         &img:nth-child(2){
+         img:nth-child(2){
             margin-left: 16px;
          }
     }
