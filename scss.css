@@ -107,6 +107,7 @@ li {
 .info_block .buttons .btn_right {
   background-color: #FFFFFF;
   color: #000000;
+  outline: 1px solid #FF5C00;
 }
 .info_block .img__rectangle {
   position: absolute;
@@ -196,6 +197,9 @@ li {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
   padding: 20px;
   background: rgba(179, 179, 179, 0.18);
 }
@@ -207,6 +211,9 @@ li {
 }
 .slider_top .text__content-container {
   padding-left: 416px;
+}
+.slider_top .title {
+  max-width: 700px;
 }
 .slider_top .single-item {
   max-width: 700px;
@@ -291,6 +298,10 @@ li {
 }
 .slider__one .header__title {
   left: 58px;
+}
+
+.hvish__container .text {
+  width: 70%;
 }
 
 /*# sourceMappingURL=scss.css.map */
