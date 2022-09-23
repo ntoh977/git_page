@@ -195,6 +195,7 @@ li {
 .slider_top {
   position: relative;
   display: flex;
+  align-items: center;
   padding: 20px;
   background: rgba(179, 179, 179, 0.18);
 }
@@ -273,16 +274,23 @@ li {
   white-space: unset;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin: 20px 0;
 }
 .slider_center .top {
   display: flex;
-  gap: 16px;
   margin: 21px 0;
 }
 .slider_center .bottom {
   display: inline-grid;
   grid-template-columns: auto auto auto;
   gap: 20px;
+}
+
+.slider__one .slick-next {
+  left: -37px;
+}
+.slider__one .header__title {
+  left: 58px;
 }
 
 /*# sourceMappingURL=scss.css.map */
