@@ -428,19 +428,35 @@ li {
         .program__curs-container {
             position: relative;
         }
+
         .logo {
             position: absolute;
             left: -35px;
         }
+
         .title__curs {
             font-weight: 700;
             font-size: 28px;
             color: #FF5C00;
         }
     }
+
     ul {
         li {
-            list-style: inside;
+            position: relative;
+            max-width: 644px;
+            margin: 10px 0;
+
+            &:before {
+                position: absolute;
+                content: "";
+                width: 7px;
+                height: 7px;
+                top: 7px;
+                left: -22px;
+                background-color:  #0061FF;
+                border-radius: 50%;
+            }
         }
     }
 }
