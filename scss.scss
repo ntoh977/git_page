@@ -395,6 +395,7 @@ li {
             width: 70%;
             margin-bottom: 20px;
         }
+
         .buttons {
             gap: 33px;
         }
@@ -421,11 +422,19 @@ li {
         }
     }
 }
+
 .bazoviy__curs {
     .left {
+        .program__curs-container {
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            left: -35px;
+        }
         .title__curs {
             font-weight: 700;
-font-size: 28px;
+            font-size: 28px;
             color: #FF5C00;
         }
     }

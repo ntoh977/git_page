@@ -342,6 +342,13 @@ li {
   margin-left: 10px;
 }
 
+.bazoviy__curs .left .program__curs-container {
+  position: relative;
+}
+.bazoviy__curs .left .logo {
+  position: absolute;
+  left: -35px;
+}
 .bazoviy__curs .left .title__curs {
   font-weight: 700;
   font-size: 28px;
