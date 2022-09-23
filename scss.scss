@@ -438,4 +438,9 @@ li {
             color: #FF5C00;
         }
     }
+    ul {
+        li {
+            list-style: inside;
+        }
+    }
 }
