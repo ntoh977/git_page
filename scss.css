@@ -344,10 +344,24 @@ li {
 
 .bazoviy__curs .left .program__curs-container {
   position: relative;
+  padding-left: 39px;
+}
+.bazoviy__curs .left .program__curs-container .row {
+  display: flex;
+  align-items: center;
+}
+.bazoviy__curs .left .program__curs-container .row span {
+  font-weight: 400;
+  font-size: 22px;
+  color: #AAAAAA;
 }
 .bazoviy__curs .left .logo {
   position: absolute;
-  left: -35px;
+  left: 10px;
+}
+.bazoviy__curs .left .bottom {
+  position: absolute;
+  top: 5px;
 }
 .bazoviy__curs .left .title__curs {
   font-weight: 700;
@@ -358,6 +372,8 @@ li {
   position: relative;
   max-width: 644px;
   margin: 10px 0;
+  font-weight: 400;
+  font-size: 14px;
 }
 .bazoviy__curs ul li:before {
   position: absolute;

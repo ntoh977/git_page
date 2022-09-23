@@ -427,13 +427,26 @@ li {
     .left {
         .program__curs-container {
             position: relative;
+            padding-left: 39px;
+            .row {
+                display: flex;
+                align-items: center;
+                span {
+                    font-weight: 400;
+font-size: 22px;
+                    color: #AAAAAA;
+                }
+            }
         }
 
         .logo {
             position: absolute;
-            left: -35px;
+            left: 10px;
         }
-
+        .bottom {
+            position: absolute;
+        top: 5px;
+        }
         .title__curs {
             font-weight: 700;
             font-size: 28px;
@@ -446,7 +459,8 @@ li {
             position: relative;
             max-width: 644px;
             margin: 10px 0;
-
+            font-weight: 400;
+            font-size: 14px;
             &:before {
                 position: absolute;
                 content: "";
