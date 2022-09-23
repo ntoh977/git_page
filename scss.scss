@@ -249,6 +249,7 @@ li {
     .title {
         max-width: 700px;
     }
+
     .single-item {
         max-width: 700px;
         background: rgba(255, 255, 255, 0.9);
@@ -363,13 +364,20 @@ li {
     .slick-next {
         left: -37px;
     }
+
     .header__title {
         left: 58px;
     }
 }
 
 .hvish__container {
+    position: relative;
+
     .text {
         width: 70%;
+    }
+
+    .vecrors {
+        position: absolute;
     }
 }

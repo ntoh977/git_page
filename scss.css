@@ -300,8 +300,14 @@ li {
   left: 58px;
 }
 
+.hvish__container {
+  position: relative;
+}
 .hvish__container .text {
   width: 70%;
+}
+.hvish__container .vecrors {
+  position: absolute;
 }
 
 /*# sourceMappingURL=scss.css.map */
