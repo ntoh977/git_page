@@ -377,13 +377,56 @@ li {
 }
 
 .hvish__container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     position: relative;
+    padding: 20px;
 
-    .text {
-        width: 70%;
+    .left__side {
+        position: relative;
+
+        .title {
+            margin: 20px 0;
+        }
+
+        .text {
+            width: 70%;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            gap: 33px;
+        }
+    }
+
+
+    .header__title::before {
+        left: -67px;
     }
 
     .vecrors {
         position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .right__side {
+        .two_img {
+            margin: 20px 0;
+
+            img:not(:first-child) {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+.bazoviy__curs {
+    .left {
+        .title__curs {
+            font-weight: 700;
+font-size: 28px;
+            color: #FF5C00;
+        }
     }
 }

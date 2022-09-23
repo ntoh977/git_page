@@ -307,13 +307,45 @@ li {
 }
 
 .hvish__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  padding: 20px;
+}
+.hvish__container .left__side {
   position: relative;
 }
-.hvish__container .text {
+.hvish__container .left__side .title {
+  margin: 20px 0;
+}
+.hvish__container .left__side .text {
   width: 70%;
+  margin-bottom: 20px;
+}
+.hvish__container .left__side .buttons {
+  gap: 33px;
+}
+.hvish__container .header__title::before {
+  left: -67px;
 }
 .hvish__container .vecrors {
   position: absolute;
+  right: 0;
+  top: 0;
+}
+.hvish__container .right__side .two_img {
+  margin: 20px 0;
+}
+.hvish__container .right__side .two_img img:not(:first-child) {
+  margin-left: 10px;
+}
+
+.bazoviy__curs .left .title__curs {
+  font-weight: 700;
+  font-size: 28px;
+  color: #FF5C00;
 }
 
 /*# sourceMappingURL=scss.css.map */
