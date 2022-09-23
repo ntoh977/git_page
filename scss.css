@@ -275,13 +275,9 @@ li {
   text-overflow: ellipsis;
 }
 .slider_center .top {
-  display: block;
-  justify-content: space-around;
-  align-items: center;
+  display: flex;
+  gap: 16px;
   margin: 21px 0;
-}
-.slider_center .top img:nth-child(2) {
-  margin-left: 16px;
 }
 .slider_center .bottom {
   display: inline-grid;
