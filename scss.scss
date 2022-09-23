@@ -319,12 +319,28 @@ li {
     display: flex;
     gap: 20px;
     align-items: center;
-   padding: 20px;
+    padding: 84px;
 
     .text {
         width: 100%;
         white-space: unset;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+
+    .top {
+         display: block; 
+        justify-content: space-around;
+       align-items: center; 
+         margin: 21px 0; 
+         &img:nth-child(2){
+            margin-left: 16px;
+         }
+    }
+
+    .bottom {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
     }
 }

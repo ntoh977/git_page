@@ -262,13 +262,27 @@ li {
   display: flex;
   gap: 20px;
   align-items: center;
-  padding: 20px;
+  padding: 84px;
 }
 .slider_center .text {
   width: 100%;
   white-space: unset;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.slider_center .top {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  margin: 21px 0;
+}
+.slider_center .topimg:nth-child(2) {
+  margin-left: 16px;
+}
+.slider_center .bottom {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
 }
 
 /*# sourceMappingURL=scss.css.map */
