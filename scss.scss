@@ -428,12 +428,14 @@ li {
         .program__curs-container {
             position: relative;
             padding-left: 39px;
+
             .row {
                 display: flex;
                 align-items: center;
+
                 span {
                     font-weight: 400;
-font-size: 22px;
+                    font-size: 22px;
                     color: #AAAAAA;
                 }
             }
@@ -443,10 +445,12 @@ font-size: 22px;
             position: absolute;
             left: 10px;
         }
+
         .bottom {
             position: absolute;
-        top: 5px;
+            top: 5px;
         }
+
         .title__curs {
             font-weight: 700;
             font-size: 28px;
@@ -461,6 +465,7 @@ font-size: 22px;
             margin: 10px 0;
             font-weight: 400;
             font-size: 14px;
+
             &:before {
                 position: absolute;
                 content: "";
@@ -468,7 +473,7 @@ font-size: 22px;
                 height: 7px;
                 top: 7px;
                 left: -22px;
-                background-color:  #0061FF;
+                background-color: #0061FF;
                 border-radius: 50%;
             }
         }
