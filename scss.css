@@ -376,11 +376,15 @@ li {
 .bazoviy__curs .left .bottom {
   position: absolute;
   top: 5px;
+  left: -27px;
 }
 .bazoviy__curs .left .title__curs {
   font-weight: 700;
   font-size: 28px;
   color: #FF5C00;
+}
+.bazoviy__curs .left .modif__curs {
+  padding-left: 5px;
 }
 .bazoviy__curs ul li {
   position: relative;
@@ -402,6 +406,26 @@ li {
 .bazoviy__curs .right {
   text-align: center;
 }
+.bazoviy__curs .right .header__title::before {
+  left: 17px;
+}
+.bazoviy__curs .right .title__right {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 62px;
+  inline-size: 713px;
+  text-align: left;
+  margin: 31px 0 80px 0;
+}
+.bazoviy__curs .right .buttons {
+  justify-content: space-around;
+}
+.bazoviy__curs .right .text__in__buttons {
+  font-weight: 700;
+  font-size: 22px;
+  inline-size: 324px;
+  text-align: left;
+}
 .bazoviy__curs .wish__more {
   position: relative;
 }
@@ -411,13 +435,13 @@ li {
   color: #FF5C00;
   border-bottom: 1px solid #FF5C00;
   position: absolute;
-  left: 112px;
-  bottom: 98px;
+  left: 137px;
+  bottom: 96px;
 }
 .bazoviy__curs .wish__more .vector__center {
   position: absolute;
-  right: 158px;
-  bottom: 105px;
+  right: 131px;
+  bottom: 103px;
   margin-left: 10px;
 }
 
