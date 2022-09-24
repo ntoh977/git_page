@@ -299,6 +299,9 @@ li {
   gap: 20px;
 }
 
+.slider__one {
+  padding: 30px 0;
+}
 .slider__one .slick-next {
   left: -37px;
 }
@@ -344,7 +347,7 @@ li {
 
 .bazoviy__curs {
   display: flex;
-  gap: 20px;
+  gap: 80px;
 }
 .bazoviy__curs .left {
   padding: 71px 57px 58px 57px;
@@ -406,8 +409,14 @@ li {
 .bazoviy__curs .right {
   text-align: center;
 }
+.bazoviy__curs .right .row {
+  display: flex;
+}
 .bazoviy__curs .right .header__title::before {
-  left: 17px;
+  left: -67px;
+}
+.bazoviy__curs .right .header__title {
+  display: inline-flex;
 }
 .bazoviy__curs .right .title__right {
   font-weight: 800;
@@ -428,6 +437,8 @@ li {
 }
 .bazoviy__curs .wish__more {
   position: relative;
+  max-width: 358px;
+  margin: 0 auto;
 }
 .bazoviy__curs .wish__more span {
   font-weight: 700;
@@ -435,14 +446,14 @@ li {
   color: #FF5C00;
   border-bottom: 1px solid #FF5C00;
   position: absolute;
-  left: 137px;
+  left: 97px;
   bottom: 96px;
 }
 .bazoviy__curs .wish__more .vector__center {
   position: absolute;
-  right: 131px;
+  right: 0;
   bottom: 103px;
-  margin-left: 10px;
+  padding-right: 20px;
 }
 
 /*# sourceMappingURL=scss.css.map */
