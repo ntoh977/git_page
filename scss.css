@@ -321,25 +321,27 @@ footer .logo__soc img {
     padding: 50px 43px;
     position: relative;
   }
+
+  footer .footer__bottom {
+    justify-content: space-around;
+  }
+
+  footer .menu li:not(:first-child) {
+    margin-left: 20px;
+  }
 }
 @media (max-width: 913px) {
-  .bottom__block .img__center .text__content__bottom {
-    max-width: 100%;
-    padding: 20px;
-    width: 85%;
-    height: 226px;
-    line-height: 20px;
-    word-break: break-all;
+  .bottom__block .img__center .text__img {
+    font-family: 'Jacques Francois';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
     display: -webkit-box;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    -ms-box-orient: vertical;
-    box-orient: vertical;
-    -webkit-line-clamp: 5;
-    -moz-line-clamp: 5;
-    -ms-line-clamp: 5;
-    line-clamp: 5;
     overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 @media (max-width: 847px) {
@@ -350,6 +352,15 @@ footer .logo__soc img {
 @media (max-width: 766px) {
   .top .menu li:not(:first-child) {
     margin-left: 20px;
+  }
+
+  footer .footer__bottom {
+    flex-wrap: wrap;
+  }
+  footer .footer__bottom ul,
+  footer .footer__bottom li {
+    margin: 0;
+    padding: 0;
   }
 }
 @media (max-width: 740px) {
@@ -366,6 +377,37 @@ footer .logo__soc img {
     left: 50%;
   }
 }
+@media (max-width: 729px) {
+  .bottom__block .img__center .title__img {
+    margin: 0 0;
+  }
+}
+@media (max-width: 653px) {
+  .bottom__block .img__center .title__img {
+    font-size: 3vw;
+  }
+
+  .bottom__block .img__center .text__content__bottom {
+    position: unset;
+    display: block;
+    transform: unset;
+    max-width: 800px;
+    text-align: center;
+    color: #17407D;
+  }
+
+  .bottom__block .img__center .text__img {
+    color: inherit;
+  }
+
+  .bottom__block .img__center .title__img {
+    filter: brightness(0) saturate(100%) invert(19%) sepia(25%) saturate(5022%) hue-rotate(202deg) brightness(86%) contrast(90%);
+  }
+
+  .bottom__block .img__center {
+    padding: 20px;
+  }
+}
 @media (max-width: 399px) {
   .text {
     margin: 20px 0;
@@ -380,6 +422,15 @@ footer .logo__soc img {
   .jewels .left .btn {
     width: 100%;
     margin: 0 auto;
+  }
+
+  .top {
+    justify-content: center;
+  }
+  .top ul,
+  .top li {
+    margin: 0;
+    padding: 0;
   }
 }
 
