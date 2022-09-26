@@ -46,9 +46,15 @@ img {
         font-size: 20px;
         line-height: 24px;
         color: #17407D;
+        transition: all .5s;
 
         &:not(:first-child) {
             margin-left: 109px;
+        }
+
+        &:hover {
+            color: #8E6B0F;
+            transition: all .5s;
         }
     }
 }
@@ -68,7 +74,22 @@ img {
     font-size: 24px;
 }
 
-.slider {
+.slick-prev,
+.slick-next {
+    margin: 20px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.slick-prev {
+    right: 54px;
+    z-index: 9;
+}
+
+.slider_ {
     display: flex;
     max-height: 877px;
 
@@ -225,12 +246,14 @@ img {
 footer {
     border-top: 5px solid #0F274A;
     background-color: #EEF2F9;
+
     .footer__bottom {
         display: flex;
         align-items: center;
         justify-content: space-around;
         padding: 31px 0;
     }
+
     .menu li {
         display: inline;
         font-weight: 400;
@@ -242,27 +265,95 @@ footer {
             margin-left: 109px;
         }
     }
+
     .logo__soc {
-        img{
+        img {
             height: 71px;
             width: 71px;
         }
     }
 }
+
 .all_rights_reserved {
-    background-color:#0F274A;
+    background-color: #0F274A;
     text-align: center;
     padding: 4px 0;
+
     .text__footer {
         font-family: 'Jacques Francois';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
         color: #FFFFFF;
     }
 }
-@media (max-width: 1440px){
+
+/* scroll top */
+#top {
+    position: fixed;
+    right: 29px;
+    bottom: 238px;
+    z-index: 9;
+}
+
+#top {
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    opacity: 0.5;
+    display: none;
+    cursor: pointer;
+}
+
+#top:hover {
+    opacity: 1;
+}
+
+/* scroll top */
+@media (max-width: 1460px) {
     .container {
-        
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    .slider_ .right {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1033px) {
+    .container {
+        max-width: 999px;
+    }
+
+    .slick-prev,
+    .slick-next {
+        top: 0;
+    }
+
+    .slider_ {
+        display: block;
+        max-height: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 766px) {
+    .top .menu li:not(:first-child) {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 399px) {
+    .text {
+        margin: 20px 0;
+    }
+    .slider_ .right .btn {
+        width: 201px;
+         font-size: 26px;
     }
 }
