@@ -156,6 +156,7 @@ img {
 .jewels {
     display: flex;
     position: relative;
+    margin: 20px 0;
 
     .title {
         position: absolute;
@@ -343,17 +344,58 @@ footer {
         height: 100%;
     }
 }
+
+@media (max-width: 927px) {
+    .container__img {
+        flex-direction: column;
+    }
+
+    .catigory {
+        padding: 0 10px;
+    }
+
+    .jewels .left .btn {
+        width: 201px;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 847px) {
+    .jewels .title {
+      
+        top: 13%;
+        
+    }
+}
+
 @media (max-width: 766px) {
     .top .menu li:not(:first-child) {
         margin-left: 20px;
+    }
+}
+@media (max-width: 740px) {
+    .jewels {
+        flex-direction: column-reverse;
+     .left {
+                 margin: 20px 0;
+        }
+        .title {
+            font-size: 8vw;
+        }
     }
 }
 @media (max-width: 399px) {
     .text {
         margin: 20px 0;
     }
+
     .slider_ .right .btn {
         width: 201px;
-         font-size: 26px;
+        font-size: 26px;
+        margin: 0 auto;
     }
 }
