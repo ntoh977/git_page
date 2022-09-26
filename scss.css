@@ -48,6 +48,7 @@ img {
 .top .menu li:hover {
   color: #8E6B0F;
   transition: all .5s;
+  cursor: pointer;
 }
 
 .title {
@@ -409,6 +410,10 @@ footer .logo__soc img {
   }
 }
 @media (max-width: 399px) {
+  .title {
+    line-height: 28px;
+  }
+
   .text {
     margin: 20px 0;
   }
