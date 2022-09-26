@@ -335,7 +335,10 @@ footer .logo__soc img {
     margin: 20px 0;
   }
   .jewels .title {
-    font-size: 8vw;
+    font-size: 6vw;
+    text-align: center;
+    width: 100%;
+    left: 50%;
   }
 }
 @media (max-width: 399px) {
@@ -344,8 +347,13 @@ footer .logo__soc img {
   }
 
   .slider_ .right .btn {
-    width: 201px;
+    width: 100%;
     font-size: 26px;
+    margin: 0 auto;
+  }
+
+  .jewels .left .btn {
+    width: 100%;
     margin: 0 auto;
   }
 }

@@ -366,9 +366,9 @@ footer {
 
 @media (max-width: 847px) {
     .jewels .title {
-      
+
         top: 13%;
-        
+
     }
 }
 
@@ -377,25 +377,36 @@ footer {
         margin-left: 20px;
     }
 }
+
 @media (max-width: 740px) {
     .jewels {
         flex-direction: column-reverse;
-     .left {
-                 margin: 20px 0;
+
+        .left {
+            margin: 20px 0;
         }
-        .title {
-            font-size: 8vw;
+
+         .title {
+            font-size: 6vw;
+            text-align: center;
+            width: 100%;
+            left: 50%;
         }
     }
 }
+
 @media (max-width: 399px) {
     .text {
         margin: 20px 0;
     }
 
     .slider_ .right .btn {
-        width: 201px;
+        width: 100%;
         font-size: 26px;
+        margin: 0 auto;
+    }
+    .jewels .left .btn {
+        width: 100%;
         margin: 0 auto;
     }
 }
