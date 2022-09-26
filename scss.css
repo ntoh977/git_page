@@ -316,6 +316,31 @@ footer .logo__soc img {
   .title {
     font-size: 5vw;
   }
+
+  .bottom__block .img__center {
+    padding: 50px 43px;
+    position: relative;
+  }
+}
+@media (max-width: 913px) {
+  .bottom__block .img__center .text__content__bottom {
+    max-width: 100%;
+    padding: 20px;
+    width: 85%;
+    height: 226px;
+    line-height: 20px;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-line-clamp: 5;
+    -moz-line-clamp: 5;
+    -ms-line-clamp: 5;
+    line-clamp: 5;
+    overflow: hidden;
+  }
 }
 @media (max-width: 847px) {
   .jewels .title {
